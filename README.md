@@ -12,5 +12,6 @@ increasing the difficulty as the game progresses.
 3. Display a game-over message when the
 player makes a mistake or fails to replicate the sequence within the time limit.
 
+# Technologies used: HTML, CSS, Javascript
 
 Try it out and challenge your memory! 🧠💡
