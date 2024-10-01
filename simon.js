@@ -58,14 +58,10 @@ function levelUp(){
         let timer = document.querySelector(".timer");
         timer.innerText = `Time Limit : ${time}`;
         time--;
-    },1000);
-
-    setTimeout(function(){
-        clearInterval(id);
         if(time==-1){
             gameOver();
         }
-    },(timeLimit+1)*1000);
+    },1000);
    
 }
 
